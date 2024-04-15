@@ -1,0 +1,19 @@
+<!doctype html>
+
+<h2>Dodaj parę osób i kwotę!</h2>
+
+        <form action="{{add}}" method="post">
+        <label for="name1">Dłużnik:</label><br>
+        <input type="text" id="name1" name="name1"><br>
+        <label for="name2">Wierzyciel:</label><br>
+        <input type="text" id="name2" name="name2"><br>
+        <label for="number">Kwota pożyczki:</label><br>
+        <input type="number" id="number" name="number"><br><br>
+        <input type="submit" value="Dodaj">
+        </form>
+
+        <form action="/calc/">
+        <input type="submit" value="Uprość długi" />
+        </form>
+
+        <p id="output"></p>
